@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Ego- Homepage</title>
+</head>
+<body>
+    <!-- Nav Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+      <div class="container-fluid  ">
+        <a class="navbar-brand" href="/" >Porto Ego</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Others
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+                <li><a class="dropdown-item" href="/gallery/">Gallery</a></li>
+                <li><a class="dropdown-item" href="/Jasa/">Paket Jasa</a></li>
+              </ul>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+
+    <!-- First Layout Start -->
+    <div class="container-fluid bg-dark " style="height: 100vh">
+        <div class="row align-items-center text-center">
+            <div class="col text-light ">
+            <h1>Menu Jasa</h1> 
+        </div>
+        <div class="row text-center mt-4 ">
+          <div class="col-sm-6 g-4">
+            <div class="card">
+                
+              <div class="card-body ">
+                <h5 class="card-title">Photoshoot Indoor / Outdoor</h5>
+                <p class="card-text">Photoshoot dapat dilakukan dimanapun sesuai keinginan anda atau bisa juga di studio  </p>
+                <p class="card-text text-danger">Harga: Rp5.000.000 saja</p>
+                <a href="/contact/" class="btn btn-danger d-block">Pesan Sekarang</a>
+              </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                -10%
+                <span class="visually-hidden">Promo</span>
+            </div>
+          </div>
+          <div class="col-sm-6 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Edit Photo</h5>
+                <p class="card-text">Kami akan mengedit photo anda sampai menjadi Amazing <span style="color:orangered ;">(maks revisi 2x)</span></p>
+                <p class="card-text text-danger">Harga: Rp1.000.000 saja </p>
+                <a href="/contact/" class="btn btn-danger d-block">Pesan Sekarang 
+                </span></a>
+              </div>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                -15% <span class="visually-hidden">Promo</span>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- First Layout End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
